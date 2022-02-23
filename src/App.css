@@ -1,38 +1,74 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@800&display=swap");
+
+html {
+  background-color: black;
+  margin: 3em;
+  color: white;
+}
+
+.eyeCatcher {
+  margin-top: 15em;
+  width: 100%;
+}
+
+.mockupContainer {
+  text-align: right;
+}
+
+.mockup {
+  max-width: 70%;
+  padding: 0em 2em;
+  max-height: 60em;
+  /* padding: 5em; */
+}
+
+.thingsIdo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+td {
+  width: 60%;
+}
+
+h2 {
+}
+
+.siteTitle {
+  font-family: "Work Sans", sans-serif;
+}
+
+.mainTextContainer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contactButton {
+  left: 50%;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  background-color: #5c7adc;
+  border: none;
+  padding: 0.7em;
+  border-radius: 20px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.contactButton:hover {
+  cursor: pointer;
+}
+
+.siteTitle:hover {
+  color: #5c7adc;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
