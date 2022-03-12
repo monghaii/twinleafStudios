@@ -80,14 +80,14 @@ const App = () => {
               ))}
             </Fade>
           </div>
-          <div className=" md:mt-80 md:ml-10">
-            <h3 className="tagline">
+          <div className=" md:mt-60 md:ml-10">
+            <h3 className="md:mt-10 tagline text-center md:text-left">
               Media solutions for the modern business.
             </h3>
           </div>
         </div>
         {/* <hr className="mt-30" /> */}
-        <h1 className="mt-40 md:mt-10 mb-10 text-xl">Our Services</h1>
+        <h1 className="mt-60 mb-10 text-xl">Our Services</h1>
         <div className="servicesContainer grid grid-cols-1 md:grid-cols-3 gap-x-7 gap-y-2 inline-block">
           <div
             className="servicePane p-5"
@@ -167,8 +167,8 @@ const App = () => {
               California.
             </p>
             <p className="mt-3">
-              I've worked with web development and digital media for as long as
-              I can remember, and am excited to work with you on your next big
+              I've worked with web development and digital content creation for
+              over a decade, and am excited to work with you on your next big
               project. Feel free to drop me a line, and let's get started!
             </p>
           </div>
