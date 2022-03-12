@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@800&display=swap");
+@import "globals";
+@import "react-slideshow-image/dist/styles.css";
+
+html {
+  background-color: black;
+  margin: 3em;
+  color: white;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+}
+
+.mockupContainer {
+  display: inline-block;
+  width: 100%;
+  // max-width: 700px;
+}
+
+.default-nav {
+  visibility: hidden;
+}
+
+.each-slide {
+  height: 60vh !important;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  // height: px;
+}
+
+.slideImg {
+  max-height: 100%;
+}
+
+.tagline {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5em;
+  margin-top: 25vh;
+  text-align: left;
+}
+
+.siteTitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.7em;
+}
+
+.contactButton {
+  left: 50%;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  background-color: $primary;
+  border: none;
+  padding: 0.7em;
+  border-radius: 20px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.contactButton:hover {
+  cursor: pointer;
+}
+
+.siteTitle:hover {
+  color: $primary;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+}
+
+.headerLogo {
+  max-width: 3em;
+  margin-right: 1em;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.header {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-60%, 0);
+}
+
+.infoPane {
+  background-color: $primary;
+  border-radius: 15px;
+}
+
+.servicesContainer {
+  max-width: 50em !important;
+  margin: auto;
+}
+
+.servicePane {
+  // background-color: $primary;
+  border: 2px solid black;
+  h2 {
+    color: $primary;
+  }
+  border-radius: 15px;
+}
+
+.servicePane:hover {
+  // background-color: $primary;
+  border: 2px solid $primary;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.matt {
+  max-width: 12em;
+}
+
+.description {
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
