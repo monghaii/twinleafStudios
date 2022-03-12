@@ -59,19 +59,21 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="header grid grid-cols-2 top-8">
-        <div className="text-right iconBox">
+      <div className="header grid grid-cols-2 top-8 md:ml-10">
+        <div className="text-right iconBox ">
           <img src={logo} className="headerLogo inline-block" />
         </div>
-        <h1 className="siteTitle text-left text-xl">twinleaf studios</h1>
+        <h1 className="siteTitle text-left text-xl md:mt-3 ">
+          twinleaf studios
+        </h1>
       </div>
       <div className="text-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-40">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-60">
           <div className="text-right">
             <Fade className="mockupContainer ml-auto">
               {slideImages.map((slideImage, index) => (
                 <div
-                  className="each-slide"
+                  className="each-slide mr-10"
                   style={{
                     backgroundImage: `url(${slideImage.url})`,
                   }}
@@ -80,14 +82,14 @@ const App = () => {
               ))}
             </Fade>
           </div>
-          <div className=" md:mt-60 md:ml-10">
+          <div className=" md:mt-60 md:ml-10 ">
             <h3 className="md:mt-10 tagline text-center md:text-left">
               Media solutions for the modern business.
             </h3>
           </div>
         </div>
         {/* <hr className="mt-30" /> */}
-        <h1 className="mt-60 mb-10 text-xl">Our Services</h1>
+        <h1 className="mt-80 mb-10 text-xl">Our Services</h1>
         <div className="servicesContainer grid grid-cols-1 md:grid-cols-3 gap-x-7 gap-y-2 inline-block">
           <div
             className="servicePane p-5"
@@ -152,7 +154,7 @@ const App = () => {
             </p>
           </div>
         </div>
-        <h1 className="mt-40 mb-10">Who's behind this?</h1>
+        <h1 className="mt-40 mb-10 text-xl">Who's behind this?</h1>
         <div className="grid mt-15 grid-cols-1 md:grid-cols-2">
           <div className="text-center md:text-right">
             <img
@@ -160,7 +162,7 @@ const App = () => {
               className="rounded-full matt inline-block md:mr-10 mt-5 mb-5 md:mb-0"
             />
           </div>
-          <div className="text-left description max-w-xs text-center md:text-left">
+          <div className="text-left description max-w-xs text-center md:text-left md:ml-10">
             <p>
               Thanks for stopping by! I'm Matt, a software engineer at PayPal
               and current masters candidate at the University of Southern
