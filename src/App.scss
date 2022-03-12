@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@800&display=swap");
 @import "globals";
-@import "react-slideshow-image/dist/styles.css";
 
 html {
-  background-color: black;
+  background-color: $bg;
   margin: 3em;
   color: white;
 }
@@ -51,6 +48,7 @@ h2 {
 .siteTitle {
   font-family: "Work Sans", sans-serif;
   font-size: 1.7em;
+  transition: 0.3s;
 }
 
 .contactButton {
@@ -90,28 +88,27 @@ h2 {
   transform: translate(-60%, 0);
 }
 
-.infoPane {
-  background-color: $primary;
-  border-radius: 15px;
-}
-
 .servicesContainer {
   max-width: 50em !important;
   margin: auto;
 }
 
 .servicePane {
-  // background-color: $primary;
-  border: 2px solid black;
+  // background-color: $light;
+  border: 2px solid $bg;
+  // color: $dark;
+  transition: 0.5s;
+
   h2 {
-    color: $primary;
+    color: white;
+    margin-bottom: 1.2em;
   }
   border-radius: 15px;
 }
 
 .servicePane:hover {
   // background-color: $primary;
-  border: 2px solid $primary;
+  border: 2px solid white;
   border-radius: 15px;
   cursor: pointer;
 }

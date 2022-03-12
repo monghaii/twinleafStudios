@@ -1,32 +1,43 @@
 import "./App.scss";
 import weWealth from "./img/wewealth.png";
+import fluentree from "./img/fluentree.png";
+import absa from "./img/absa.png";
 import matt from "./img/matt.jpg";
 import EmailButton from "./components/EmailButton";
 import { useState } from "react";
 import { Fade } from "react-slideshow-image";
 import { Button } from "react";
 import logo from "./img/twinleaf.jpg";
+import InfoPane from "./components/InfoPane";
 
 const slideImages = [
   {
     url: weWealth,
     caption: "app designs",
+    name: "weWealth",
   },
   {
-    url: "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    caption: "Slide 2",
+    url: fluentree,
+    caption: "web and mobile applications",
+    name: "fluentree",
   },
   {
-    url: "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-    caption: "Slide 3",
+    url: absa,
+    caption: "websites",
+    name: "absa",
   },
 ];
 
 const App = () => {
   const [showInfoPane, setShowInfoPane] = useState(false);
+  const [infoPaneSelection, setInfoPaneSelection] = useState("web");
 
-  const handleServiceClick = () => {
-    // if (!showInfoPane) setShowInfoPane(true);
+  const handleServiceClick = (service) => {
+    if (!showInfoPane) setShowInfoPane(true);
+
+    if (showInfoPane && infoPaneSelection === service) setShowInfoPane(false);
+    console.log(service);
+    setInfoPaneSelection(service);
   };
 
   return (
@@ -59,20 +70,29 @@ const App = () => {
           </div>
         </div>
         {/* <hr className="mt-30" /> */}
-        <h1 className="mt-10 mb-10">Our Services</h1>
+        <h1 className="mt-10 mb-10 text-xl">Our Services</h1>
         <div className="servicesContainer grid grid-cols-3 gap-x-7 gap-y-2 inline-block">
-          <div className="servicePane p-5" onClick={handleServiceClick}>
+          <div
+            className="servicePane p-5"
+            onClick={() => handleServiceClick("Branding")}
+          >
             <h2>Branding</h2>
             <p>We reimagine your brand's image according to your goals.</p>
           </div>
 
-          <div className="servicePane p-5" onClick={handleServiceClick}>
+          <div
+            className="servicePane p-5"
+            onClick={() => handleServiceClick("Web Services")}
+          >
             <h2>Web Services</h2>
             <p>
               We set up and manage an entire professional web presence for you.
             </p>
           </div>
-          <div className="servicePane p-5" onClick={handleServiceClick}>
+          <div
+            className="servicePane p-5"
+            onClick={() => handleServiceClick("Digital Marketing")}
+          >
             <h2>Digital Marketing</h2>
             <p>
               We generate new leads for your business with unique marketing
@@ -80,29 +100,34 @@ const App = () => {
             </p>
           </div>
           {showInfoPane && (
-            <div
-              className="infoPane p-5 col-span-3"
-              onClick={handleServiceClick}
-            >
-              <h2>sdf</h2>
-              <p>sdf</p>
-            </div>
+            <span className="col-span-3">
+              <InfoPane service={infoPaneSelection} />
+            </span>
           )}
-          <div className="servicePane p-5" onClick={handleServiceClick}>
+          <div
+            className="servicePane p-5"
+            onClick={() => handleServiceClick("UI/UX Design")}
+          >
             <h2>UI/UX Design</h2>
             <p>
               We generate interactive mock-ups to test and validate your next
               business idea.
             </p>
           </div>
-          <div className="servicePane p-5" onClick={handleServiceClick}>
+          <div
+            className="servicePane p-5"
+            onClick={() => handleServiceClick("Digital Media")}
+          >
             <h2>Digital Media</h2>
             <p>
               We create digital content for your business in the form of videos,
               images, and audio.
             </p>
           </div>
-          <div className="servicePane p-5" onClick={handleServiceClick}>
+          <div
+            className="servicePane p-5"
+            onClick={() => handleServiceClick("Apps")}
+          >
             <h2>Apps</h2>
             <p>
               We create web and mobile applications for your business from
