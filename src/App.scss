@@ -41,7 +41,6 @@ h2 {
 .tagline {
   font-family: "Open Sans", sans-serif;
   font-size: 2.5em;
-  margin-top: 25vh;
   text-align: left;
 }
 
@@ -120,8 +119,19 @@ h2 {
 .description {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 500px) {
+  .siteTitle {
+    font-size: 1.1em;
+    margin-top: 0.1em;
+    margin-left: -1.8em;
+  }
+
+  .header {
+    width: 70%;
+  }
+
+  .headerLogo {
+    max-width: 2em;
+    margin-right: 2.7em;
   }
 }

@@ -49,7 +49,7 @@ const App = () => {
         <h1 className="siteTitle text-left">twinleaf studios</h1>
       </div>
       <div className="text-center">
-        <div className="grid grid-cols-2 mt-40">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 md:mt-40">
           <div className="text-right">
             <Fade className="mockupContainer ml-auto">
               {slideImages.map((slideImage, index) => (
@@ -63,15 +63,15 @@ const App = () => {
               ))}
             </Fade>
           </div>
-          <div className="ml-10">
+          <div className=" md:mt-80 md:ml-10">
             <h3 className="tagline">
               Media solutions for the modern business.
             </h3>
           </div>
         </div>
         {/* <hr className="mt-30" /> */}
-        <h1 className="mt-10 mb-10 text-xl">Our Services</h1>
-        <div className="servicesContainer grid grid-cols-3 gap-x-7 gap-y-2 inline-block">
+        <h1 className="mt-40 md:mt-10 mb-10 text-xl">Our Services</h1>
+        <div className="servicesContainer grid grid-cols-1 md:grid-cols-3 gap-x-7 gap-y-2 inline-block">
           <div
             className="servicePane p-5"
             onClick={() => handleServiceClick("Branding")}
@@ -136,7 +136,7 @@ const App = () => {
           </div>
         </div>
         <h1 className="mt-40 mb-10">Who's behind this?</h1>
-        <div className="grid grid-cols-2 mt-15">
+        <div className="grid mt-15 grid-cols-1 md:grid-cols-2">
           <div className="text-right">
             <img
               src={matt}
