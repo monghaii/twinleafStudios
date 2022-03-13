@@ -73,7 +73,7 @@ const App = () => {
             <Fade className="mockupContainer ml-auto">
               {slideImages.map((slideImage, index) => (
                 <div
-                  className="each-slide mr-10"
+                  className="each-slide md:mr-10"
                   style={{
                     backgroundImage: `url(${slideImage.url})`,
                   }}
