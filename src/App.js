@@ -155,14 +155,14 @@ const App = () => {
           </div>
         </div>
         <h1 className="mt-40 mb-10 text-xl">Who's behind this?</h1>
-        <div className="grid mt-15 grid-cols-1 md:grid-cols-2">
+        <div className="grid mt-15 grid-cols-1 md:grid-cols-2 text-center">
           <div className="text-center md:text-right">
             <img
               src={matt}
               className="rounded-full matt inline-block md:mr-10 mt-5 mb-5 md:mb-0"
             />
           </div>
-          <div className="text-left description max-w-xs text-center md:text-left md:ml-10">
+          <div className="md:text-left inline-block description md:max-w-xs text-center md:text-left md:ml-10">
             <p>
               Thanks for stopping by! I'm Matt, a software engineer at PayPal
               and current masters candidate at the University of Southern

@@ -32,9 +32,9 @@ export default function InfoPane({ service = "Web Services" }) {
         <div>
           Imagine how your business could grow with a proper digital marketing
           strategy. We can manage your SEO as well as run targeted ad campaigns
-          for your desired demographics on Facebook, Instagram, Google, and
-          Youtube. We can also take care of all of your PR needs -- no more
-          hounding Yelp for your reviews!
+          for your desired demographics on Facebook, Instagram, Yelp, and more.
+          We can also take care of all of your PR needs -- no more hounding Yelp
+          for your reviews!
         </div>
       )}
       {service === "UI/UX Design" && (
