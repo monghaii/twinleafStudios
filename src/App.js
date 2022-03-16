@@ -2,6 +2,7 @@ import "./App.scss";
 import weWealth from "./img/wewealth.png";
 import fluentree from "./img/fluentree.png";
 import absa from "./img/absa.png";
+import yambo from "./img/yambo.png";
 import matt from "./img/matt.jpg";
 import EmailButton from "./components/EmailButton";
 import { useState, useRef, useEffect } from "react";
@@ -25,6 +26,11 @@ const slideImages = [
   {
     url: absa,
     caption: "websites",
+    name: "absa",
+  },
+  {
+    url: yambo,
+    caption: "apps",
     name: "absa",
   },
 ];
