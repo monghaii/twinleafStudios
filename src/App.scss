@@ -41,6 +41,7 @@ h2 {
 .siteTitle {
   font-family: "Work Sans", sans-serif;
   font-size: 1.7em;
+  color: $primary;
   transition: 0.3s;
 }
 
@@ -88,20 +89,20 @@ h2 {
 
 .servicePane {
   // background-color: $light;
-  border: 2px solid $bg;
+  border: 5px solid $bg;
   // color: $dark;
   transition: 0.5s;
 
   h2 {
-    color: white;
+    color: $dark;
     margin-bottom: 1.2em;
   }
   border-radius: 15px;
 }
 
 .servicePane:hover {
-  // background-color: $primary;
-  border: 2px solid white;
+  background-color: $secondary;
+  border: 5px solid $primary;
   border-radius: 15px;
   cursor: pointer;
 }
@@ -110,7 +111,33 @@ h2 {
   max-width: 12em;
 }
 
-.description {
+.rainbow_text {
+  display: inline-block;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  // background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to right, $primary, $secondary, blue, magenta, cyan);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.rainbow_text.animated {
+  animation: rainbow_animation 10s infinite;
+  background-size: 400%;
+}
+
+@keyframes rainbow_animation {
+
+  0%,
+  100% {
+    background-position: 0
+  }
+
+  50% {
+    background-position: 100%
+  }
 }
 
 @media (max-width: 500px) {

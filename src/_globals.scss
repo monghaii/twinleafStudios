@@ -7,12 +7,12 @@
 
 $primary: rgb(0, 176, 103);
 $secondary: rgb(133, 238, 133);
-$bg: rgb(52, 88, 207);
+$bg: white;
 $light: rgb(207, 207, 207);
 $dark: rgb(48, 48, 48);
 
 html {
   background-color: $bg;
   margin: 3em;
-  color: white;
+  color: $dark;
 }
