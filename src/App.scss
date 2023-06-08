@@ -85,6 +85,7 @@ h2 {
 .servicesContainer {
   max-width: 50em !important;
   margin: auto;
+  margin-top: 2em;
 }
 
 .servicePane {
@@ -92,6 +93,12 @@ h2 {
   border: 5px solid $bg;
   // color: $dark;
   transition: 0.5s;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  align-items: center; /* vertically center aligns content */
+  justify-content: center; /* horizontally center aligns content */
+  padding-top: 1em;
 
   h2 {
     color: $dark;
@@ -101,10 +108,25 @@ h2 {
 }
 
 .servicePane:hover {
-  background-color: $secondary;
+  background-color: $primary;
   border: 5px solid $primary;
   border-radius: 15px;
   cursor: pointer;
+
+  h2 {
+    color: $bg;
+  }
+}
+
+.selectedServicePane {
+  background-color: $primary;
+  border: 5px solid $primary;
+  border-radius: 15px;
+  cursor: pointer;
+
+  h2 {
+    color: $bg;
+  }
 }
 
 .matt {

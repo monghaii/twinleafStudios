@@ -8,6 +8,13 @@
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.4s;
+  max-width: 50em !important;
+  color: $bg;
+}
+
+.infoPaneDesktop {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
 }
 
 @keyframes fadeInOpacity {

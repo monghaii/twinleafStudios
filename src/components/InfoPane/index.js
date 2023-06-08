@@ -1,9 +1,10 @@
 import React from "react";
+import { isMobile } from "react-device-detect";
 import "./styles.scss";
 
 export default function InfoPane({ service = "Web Services" }) {
   return (
-    <div className="infoPane  p-10">
+    <div className={`infoPane ${isMobile ? 'p-0 pb-5' : 'p-10 infoPaneDesktop'}`}>
       <h2 className="text-xl mb-5">{service}</h2>
       {service === "Branding" && (
         <div>
@@ -55,11 +56,9 @@ export default function InfoPane({ service = "Web Services" }) {
           anything else your business needs.
         </div>
       )}
-      {service === "Apps" && (
+      {service === "Lead Generation" && (
         <div>
-          Need the ultimate in development power? We can build out a full-stack
-          web or mobile application that is ready for your first user, including
-          a fully-functioning frontend and scalable backend.
+Looking to boost your business's growth and increase sales? We are experts in lead generation, helping our clients generate high-quality leads and fuel their sales pipeline. With our strategic approach and proven techniques, we identify and engage with potential customers who are genuinely interested in your products or services. From implementing targeted marketing campaigns to leveraging cutting-edge technologies, we optimize your lead generation efforts to deliver tangible results. Let us take care of producing leads for your business so you can focus on what you do best - closing deals and expanding your customer base.
         </div>
       )}
     </div>
