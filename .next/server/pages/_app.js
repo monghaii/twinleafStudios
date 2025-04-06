@@ -1,64 +1,240 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./pages/_app.jsx":
-/*!************************!*\
-  !*** ./pages/_app.jsx ***!
-  \************************/
+/***/ 6531:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_layout_Preloader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/layout/Preloader */ \"./src/layout/Preloader.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nconst App = ({ Component , pageProps  })=>{\n    const [loader, setLoader] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(true);\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        setTimeout(()=>{\n            setLoader(false);\n        }, 1000);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Twinleaf Studios\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"Content-Type\",\n                        content: \"text/html; charset=utf-8\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"X-UA-Compatible\",\n                        content: \"IE=edge\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"HandheldFriendly\",\n                        content: \"true\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"author\",\n                        content: \"beshleyua\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"dns-prefetch\",\n                        href: \"//fonts.googleapis.com\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 23,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 24,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CPlayfair+Display%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CMr+De+Haviland&display=swap\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 30,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/bootstrap.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 37,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/fonts/font-awesome/css/font-awesome.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 43,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/magnific-popup.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 49,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/splitting.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 55,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/swiper.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 61,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/vendors/animate.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 67,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/main.css\",\n                        type: \"text/css\",\n                        media: \"all\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 73,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"style\", {\n                        children: `\n            /* Override highlight colors */\n            .navbar-default.navbar-light .active>a, \n            .navbar-default.navbar-light .active>a:focus, \n            .navbar-default.navbar-light .active>a:hover, \n            .navbar-default.navbar-light li>a:focus, \n            .navbar-default.navbar-light li>a:hover, \n            .navbar-default.navbar-light .open>a:focus, \n            .navbar-default.navbar-light .open>a:hover, \n            .sidenav>li>a.active, \n            .sidenav>li>a:hover, \n            .sidenav li.active>a, \n            .sidebar-boxed .sidenav>li>a.open, \n            .sidebar-boxed .sidenav>li>a:hover, \n            a, a:focus, a:hover, \n            .tabs-text .nav-tabs>li.active a, \n            .tabs-icon .nav-tabs>li.active a, \n            .tabs-btn .nav-tabs li.active a {\n                color: #4EAD6D !important;\n            }\n\n            /* Keep button text white */\n            a.btn, .btn, a.btn-link, .btn-link, button {\n                color: #fff !important;\n            }\n\n            .btn-outline.btn-primary:hover,\n            .btn-round.btn-primary:hover,\n            .pagination>li>a:focus, \n            .pagination>li>a:hover, \n            .pagination>li>span:focus, \n            .pagination>li>span:hover, \n            .pager li>a:hover {\n                color: #4EAD6D !important;\n            }\n\n            .navbar-default.navbar-light .open>a {\n                color: #4EAD6D !important;\n            }\n\n            h1 a:before, h2 a:before, h3 a:before {\n                color: #4EAD6D !important;\n            }\n\n            .error-page__num {\n                color: #4EAD6D !important;\n            }\n          `\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 79,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: \"favicon.ico\",\n                        type: \"image/x-icon\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 134,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"favicon.ico\",\n                        type: \"image/x-icon\"\n                    }, void 0, false, {\n                        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                        lineNumber: 135,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, undefined),\n            loader && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_layout_Preloader__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                lineNumber: 137,\n                columnNumber: 18\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n                lineNumber: 138,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/momo/Developer/twinleafStudios/pages/_app.jsx\",\n        lineNumber: 14,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQUE7QUFBNkI7QUFDeUI7QUFDTjtBQUNqQjtBQUMvQixNQUFNSyxNQUFNLENBQUMsRUFBRUMsVUFBUyxFQUFFQyxVQUFTLEVBQUUsR0FBSztJQUN4QyxNQUFNLENBQUNDLFFBQVFDLFVBQVUsR0FBR04sK0NBQVFBLENBQUMsSUFBSTtJQUN6Q0QsZ0RBQVNBLENBQUMsSUFBTTtRQUNkUSxXQUFXLElBQU07WUFDZkQsVUFBVSxLQUFLO1FBQ2pCLEdBQUc7SUFDTCxHQUFHLEVBQUU7SUFFTCxxQkFDRSw4REFBQ1IsMkNBQVFBOzswQkFDUCw4REFBQ0Qsa0RBQUlBOztrQ0FDSCw4REFBQ1c7a0NBQU07Ozs7OztrQ0FDUCw4REFBQ0M7d0JBQUtDLFdBQVU7d0JBQWVDLFNBQVE7Ozs7OztrQ0FDdkMsOERBQUNGO3dCQUFLQyxXQUFVO3dCQUFrQkMsU0FBUTs7Ozs7O2tDQUMxQyw4REFBQ0Y7d0JBQUtHLE1BQUs7d0JBQVdELFNBQVE7Ozs7OztrQ0FDOUIsOERBQUNGO3dCQUFLRyxNQUFLO3dCQUFtQkQsU0FBUTs7Ozs7O2tDQUN0Qyw4REFBQ0Y7d0JBQUtHLE1BQUs7d0JBQVNELFNBQVE7Ozs7OztrQ0FFNUIsOERBQUNFO3dCQUFLQyxLQUFJO3dCQUFlQyxNQUFLOzs7Ozs7a0NBQzlCLDhEQUFDRjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUdSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDSjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzt3QkFDTEMsT0FBTTs7Ozs7O2tDQUVSLDhEQUFDQztrQ0FDRSxDQUFDOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztVQStDRixDQUFDOzs7Ozs7a0NBT0gsOERBQUNMO3dCQUFLQyxLQUFJO3dCQUFnQkMsTUFBSzt3QkFBY0MsTUFBSzs7Ozs7O2tDQUNsRCw4REFBQ0g7d0JBQUtDLEtBQUk7d0JBQU9DLE1BQUs7d0JBQWNDLE1BQUs7Ozs7Ozs7Ozs7OztZQUUxQ1gsd0JBQVUsOERBQUNKLDZEQUFTQTs7Ozs7MEJBQ3JCLDhEQUFDRTtnQkFBVyxHQUFHQyxTQUFTOzs7Ozs7Ozs7Ozs7QUFHOUI7QUFDQSxpRUFBZUYsR0FBR0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2FzdGVyLXJlYWN0Ly4vcGFnZXMvX2FwcC5qc3g/NGNiMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XG5pbXBvcnQgeyBGcmFnbWVudCwgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IFByZWxvYWRlciBmcm9tIFwiLi4vc3JjL2xheW91dC9QcmVsb2FkZXJcIjtcbmltcG9ydCBcIi4uL3N0eWxlcy9nbG9iYWxzLmNzc1wiO1xuY29uc3QgQXBwID0gKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkgPT4ge1xuICBjb25zdCBbbG9hZGVyLCBzZXRMb2FkZXJdID0gdXNlU3RhdGUodHJ1ZSk7XG4gIHVzZUVmZmVjdCgoKSA9PiB7XG4gICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICBzZXRMb2FkZXIoZmFsc2UpO1xuICAgIH0sIDEwMDApO1xuICB9LCBbXSk7XG5cbiAgcmV0dXJuIChcbiAgICA8RnJhZ21lbnQ+XG4gICAgICA8SGVhZD5cbiAgICAgICAgPHRpdGxlPlR3aW5sZWFmIFN0dWRpb3M8L3RpdGxlPlxuICAgICAgICA8bWV0YSBodHRwRXF1aXY9XCJDb250ZW50LVR5cGVcIiBjb250ZW50PVwidGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04XCIgLz5cbiAgICAgICAgPG1ldGEgaHR0cEVxdWl2PVwiWC1VQS1Db21wYXRpYmxlXCIgY29udGVudD1cIklFPWVkZ2VcIiAvPlxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgICA8bWV0YSBuYW1lPVwiSGFuZGhlbGRGcmllbmRseVwiIGNvbnRlbnQ9XCJ0cnVlXCIgLz5cbiAgICAgICAgPG1ldGEgbmFtZT1cImF1dGhvclwiIGNvbnRlbnQ9XCJiZXNobGV5dWFcIiAvPlxuICAgICAgICB7LyogRm9udHMgKi99XG4gICAgICAgIDxsaW5rIHJlbD1cImRucy1wcmVmZXRjaFwiIGhyZWY9XCIvL2ZvbnRzLmdvb2dsZWFwaXMuY29tXCIgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1Xb3JrK1NhbnM6d2dodEA4MDAmZGlzcGxheT1zd2FwXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVJvYm90byUzQTEwMCUyQzEwMGklMkMzMDAlMkMzMDBpJTJDNDAwJTJDNDAwaSUyQzUwMCUyQzUwMGklMkM3MDAlMkM3MDBpJTJDOTAwJTJDOTAwaSU3Q1BsYXlmYWlyK0Rpc3BsYXklM0ExMDAlMkMxMDBpJTJDMzAwJTJDMzAwaSUyQzQwMCUyQzQwMGklMkM1MDAlMkM1MDBpJTJDNzAwJTJDNzAwaSUyQzkwMCUyQzkwMGklN0NNcitEZStIYXZpbGFuZCZkaXNwbGF5PXN3YXBcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICB7LyogQ1NTIFNUWUxFUyAqL31cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy92ZW5kb3JzL2Jvb3RzdHJhcC5jc3NcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvZm9udHMvZm9udC1hd2Vzb21lL2Nzcy9mb250LWF3ZXNvbWUuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy92ZW5kb3JzL21hZ25pZmljLXBvcHVwLmNzc1wiXG4gICAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcbiAgICAgICAgICBtZWRpYT1cImFsbFwiXG4gICAgICAgIC8+XG4gICAgICAgIDxsaW5rXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvdmVuZG9ycy9zcGxpdHRpbmcuY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPGxpbmtcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy92ZW5kb3JzL3N3aXBlci5jc3NcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL3ZlbmRvcnMvYW5pbWF0ZS5jc3NcIlxuICAgICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXG4gICAgICAgICAgbWVkaWE9XCJhbGxcIlxuICAgICAgICAvPlxuICAgICAgICA8bGlua1xuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL21haW4uY3NzXCJcbiAgICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxuICAgICAgICAgIG1lZGlhPVwiYWxsXCJcbiAgICAgICAgLz5cbiAgICAgICAgPHN0eWxlPlxuICAgICAgICAgIHtgXG4gICAgICAgICAgICAvKiBPdmVycmlkZSBoaWdobGlnaHQgY29sb3JzICovXG4gICAgICAgICAgICAubmF2YmFyLWRlZmF1bHQubmF2YmFyLWxpZ2h0IC5hY3RpdmU+YSwgXG4gICAgICAgICAgICAubmF2YmFyLWRlZmF1bHQubmF2YmFyLWxpZ2h0IC5hY3RpdmU+YTpmb2N1cywgXG4gICAgICAgICAgICAubmF2YmFyLWRlZmF1bHQubmF2YmFyLWxpZ2h0IC5hY3RpdmU+YTpob3ZlciwgXG4gICAgICAgICAgICAubmF2YmFyLWRlZmF1bHQubmF2YmFyLWxpZ2h0IGxpPmE6Zm9jdXMsIFxuICAgICAgICAgICAgLm5hdmJhci1kZWZhdWx0Lm5hdmJhci1saWdodCBsaT5hOmhvdmVyLCBcbiAgICAgICAgICAgIC5uYXZiYXItZGVmYXVsdC5uYXZiYXItbGlnaHQgLm9wZW4+YTpmb2N1cywgXG4gICAgICAgICAgICAubmF2YmFyLWRlZmF1bHQubmF2YmFyLWxpZ2h0IC5vcGVuPmE6aG92ZXIsIFxuICAgICAgICAgICAgLnNpZGVuYXY+bGk+YS5hY3RpdmUsIFxuICAgICAgICAgICAgLnNpZGVuYXY+bGk+YTpob3ZlciwgXG4gICAgICAgICAgICAuc2lkZW5hdiBsaS5hY3RpdmU+YSwgXG4gICAgICAgICAgICAuc2lkZWJhci1ib3hlZCAuc2lkZW5hdj5saT5hLm9wZW4sIFxuICAgICAgICAgICAgLnNpZGViYXItYm94ZWQgLnNpZGVuYXY+bGk+YTpob3ZlciwgXG4gICAgICAgICAgICBhLCBhOmZvY3VzLCBhOmhvdmVyLCBcbiAgICAgICAgICAgIC50YWJzLXRleHQgLm5hdi10YWJzPmxpLmFjdGl2ZSBhLCBcbiAgICAgICAgICAgIC50YWJzLWljb24gLm5hdi10YWJzPmxpLmFjdGl2ZSBhLCBcbiAgICAgICAgICAgIC50YWJzLWJ0biAubmF2LXRhYnMgbGkuYWN0aXZlIGEge1xuICAgICAgICAgICAgICAgIGNvbG9yOiAjNEVBRDZEICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC8qIEtlZXAgYnV0dG9uIHRleHQgd2hpdGUgKi9cbiAgICAgICAgICAgIGEuYnRuLCAuYnRuLCBhLmJ0bi1saW5rLCAuYnRuLWxpbmssIGJ1dHRvbiB7XG4gICAgICAgICAgICAgICAgY29sb3I6ICNmZmYgIWltcG9ydGFudDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLmJ0bi1vdXRsaW5lLmJ0bi1wcmltYXJ5OmhvdmVyLFxuICAgICAgICAgICAgLmJ0bi1yb3VuZC5idG4tcHJpbWFyeTpob3ZlcixcbiAgICAgICAgICAgIC5wYWdpbmF0aW9uPmxpPmE6Zm9jdXMsIFxuICAgICAgICAgICAgLnBhZ2luYXRpb24+bGk+YTpob3ZlciwgXG4gICAgICAgICAgICAucGFnaW5hdGlvbj5saT5zcGFuOmZvY3VzLCBcbiAgICAgICAgICAgIC5wYWdpbmF0aW9uPmxpPnNwYW46aG92ZXIsIFxuICAgICAgICAgICAgLnBhZ2VyIGxpPmE6aG92ZXIge1xuICAgICAgICAgICAgICAgIGNvbG9yOiAjNEVBRDZEICFpbXBvcnRhbnQ7XG4gICAgICAgICAgICB9XG5cbiAgICAgICAgICAgIC5uYXZiYXItZGVmYXVsdC5uYXZiYXItbGlnaHQgLm9wZW4+YSB7XG4gICAgICAgICAgICAgICAgY29sb3I6ICM0RUFENkQgIWltcG9ydGFudDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgaDEgYTpiZWZvcmUsIGgyIGE6YmVmb3JlLCBoMyBhOmJlZm9yZSB7XG4gICAgICAgICAgICAgICAgY29sb3I6ICM0RUFENkQgIWltcG9ydGFudDtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgLmVycm9yLXBhZ2VfX251bSB7XG4gICAgICAgICAgICAgICAgY29sb3I6ICM0RUFENkQgIWltcG9ydGFudDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgICAgICB7LypbaWYgbHQgSUUgOV0+XG5cdFxuXHRcblx0PCFbZW5kaWZdKi99XG4gICAgICAgIHsvKiBGYXZpY29uICovfVxuICAgICAgICA8bGluayByZWw9XCJzaG9ydGN1dCBpY29uXCIgaHJlZj1cImZhdmljb24uaWNvXCIgdHlwZT1cImltYWdlL3gtaWNvblwiIC8+XG4gICAgICAgIDxsaW5rIHJlbD1cImljb25cIiBocmVmPVwiZmF2aWNvbi5pY29cIiB0eXBlPVwiaW1hZ2UveC1pY29uXCIgLz5cbiAgICAgIDwvSGVhZD5cbiAgICAgIHtsb2FkZXIgJiYgPFByZWxvYWRlciAvPn1cbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICA8L0ZyYWdtZW50PlxuICApO1xufTtcbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdLCJuYW1lcyI6WyJIZWFkIiwiRnJhZ21lbnQiLCJ1c2VFZmZlY3QiLCJ1c2VTdGF0ZSIsIlByZWxvYWRlciIsIkFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImxvYWRlciIsInNldExvYWRlciIsInNldFRpbWVvdXQiLCJ0aXRsZSIsIm1ldGEiLCJodHRwRXF1aXYiLCJjb250ZW50IiwibmFtZSIsImxpbmsiLCJyZWwiLCJocmVmIiwidHlwZSIsIm1lZGlhIiwic3R5bGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.jsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+;// CONCATENATED MODULE: ./src/layout/Preloader.js
+
+const Preloader = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        className: "preloader",
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            className: "centrize full-width",
+            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "vertical-center",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "spinner-logo",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                            src: "assets/images/twinleaf.jpg",
+                            alt: "Twinleaf Studios Logo"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: "spinner-dot"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            className: "spinner spinner-line"
+                        })
+                    ]
+                })
+            })
+        })
+    });
+};
+/* harmony default export */ const layout_Preloader = (Preloader);
+
+// EXTERNAL MODULE: ./styles/globals.css
+var globals = __webpack_require__(6764);
+;// CONCATENATED MODULE: ./pages/_app.jsx
+
+
+
+
+
+const App = ({ Component , pageProps  })=>{
+    const [loader, setLoader] = (0,external_react_.useState)(true);
+    (0,external_react_.useEffect)(()=>{
+        setTimeout(()=>{
+            setLoader(false);
+        }, 1000);
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                        children: "Twinleaf Studios"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        httpEquiv: "Content-Type",
+                        content: "text/html; charset=utf-8"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        httpEquiv: "X-UA-Compatible",
+                        content: "IE=edge"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "viewport",
+                        content: "width=device-width, initial-scale=1"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "HandheldFriendly",
+                        content: "true"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "author",
+                        content: "beshleyua"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "dns-prefetch",
+                        href: "//fonts.googleapis.com"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CPlayfair+Display%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CMr+De+Haviland&display=swap",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/vendors/bootstrap.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/fonts/font-awesome/css/font-awesome.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/vendors/magnific-popup.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/vendors/splitting.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/vendors/swiper.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/vendors/animate.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "assets/css/main.css",
+                        type: "text/css",
+                        media: "all"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("style", {
+                        children: `
+            /* Override highlight colors */
+            .navbar-default.navbar-light .active>a, 
+            .navbar-default.navbar-light .active>a:focus, 
+            .navbar-default.navbar-light .active>a:hover, 
+            .navbar-default.navbar-light li>a:focus, 
+            .navbar-default.navbar-light li>a:hover, 
+            .navbar-default.navbar-light .open>a:focus, 
+            .navbar-default.navbar-light .open>a:hover, 
+            .sidenav>li>a.active, 
+            .sidenav>li>a:hover, 
+            .sidenav li.active>a, 
+            .sidebar-boxed .sidenav>li>a.open, 
+            .sidebar-boxed .sidenav>li>a:hover, 
+            a, a:focus, a:hover, 
+            .tabs-text .nav-tabs>li.active a, 
+            .tabs-icon .nav-tabs>li.active a, 
+            .tabs-btn .nav-tabs li.active a {
+                color: #4EAD6D !important;
+            }
+
+            /* Keep button text white */
+            a.btn, .btn, a.btn-link, .btn-link, button {
+                color: #fff !important;
+            }
+
+            .btn-outline.btn-primary:hover,
+            .btn-round.btn-primary:hover,
+            .pagination>li>a:focus, 
+            .pagination>li>a:hover, 
+            .pagination>li>span:focus, 
+            .pagination>li>span:hover, 
+            .pager li>a:hover {
+                color: #4EAD6D !important;
+            }
+
+            .navbar-default.navbar-light .open>a {
+                color: #4EAD6D !important;
+            }
+
+            h1 a:before, h2 a:before, h3 a:before {
+                color: #4EAD6D !important;
+            }
+
+            .error-page__num {
+                color: #4EAD6D !important;
+            }
+          `
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "shortcut icon",
+                        href: "favicon.ico",
+                        type: "image/x-icon"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "icon",
+                        href: "favicon.ico",
+                        type: "image/x-icon"
+                    })
+                ]
+            }),
+            loader && /*#__PURE__*/ jsx_runtime_.jsx(layout_Preloader, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                ...pageProps
+            })
+        ]
+    });
+};
+/* harmony default export */ const _app = (App);
+
 
 /***/ }),
 
-/***/ "./src/layout/Preloader.js":
-/*!*********************************!*\
-  !*** ./src/layout/Preloader.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Preloader = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"preloader\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"centrize full-width\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"vertical-center\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"spinner-logo\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            src: \"assets/images/twinleaf.jpg\",\n                            alt: \"Twinleaf Studios Logo\"\n                        }, void 0, false, {\n                            fileName: \"/Users/momo/Developer/twinleafStudios/src/layout/Preloader.js\",\n                            lineNumber: 7,\n                            columnNumber: 13\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"spinner-dot\"\n                        }, void 0, false, {\n                            fileName: \"/Users/momo/Developer/twinleafStudios/src/layout/Preloader.js\",\n                            lineNumber: 8,\n                            columnNumber: 13\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"spinner spinner-line\"\n                        }, void 0, false, {\n                            fileName: \"/Users/momo/Developer/twinleafStudios/src/layout/Preloader.js\",\n                            lineNumber: 9,\n                            columnNumber: 13\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/momo/Developer/twinleafStudios/src/layout/Preloader.js\",\n                    lineNumber: 6,\n                    columnNumber: 11\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/momo/Developer/twinleafStudios/src/layout/Preloader.js\",\n                lineNumber: 5,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/momo/Developer/twinleafStudios/src/layout/Preloader.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/momo/Developer/twinleafStudios/src/layout/Preloader.js\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Preloader);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGF5b3V0L1ByZWxvYWRlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTtBQUFBLE1BQU1BLFlBQVksSUFBTTtJQUN0QixxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTtrQkFDYiw0RUFBQ0Q7WUFBSUMsV0FBVTtzQkFDYiw0RUFBQ0Q7Z0JBQUlDLFdBQVU7MEJBQ2IsNEVBQUNEO29CQUFJQyxXQUFVOztzQ0FDYiw4REFBQ0M7NEJBQUlDLEtBQUk7NEJBQTZCQyxLQUFJOzs7Ozs7c0NBQzFDLDhEQUFDSjs0QkFBSUMsV0FBVTs7Ozs7O3NDQUNmLDhEQUFDRDs0QkFBSUMsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBTTNCO0FBRUEsaUVBQWVGLFNBQVNBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hc3Rlci1yZWFjdC8uL3NyYy9sYXlvdXQvUHJlbG9hZGVyLmpzP2E3OWEiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUHJlbG9hZGVyID0gKCkgPT4ge1xyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT1cInByZWxvYWRlclwiPlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNlbnRyaXplIGZ1bGwtd2lkdGhcIj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInZlcnRpY2FsLWNlbnRlclwiPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzcGlubmVyLWxvZ29cIj5cclxuICAgICAgICAgICAgPGltZyBzcmM9XCJhc3NldHMvaW1hZ2VzL3R3aW5sZWFmLmpwZ1wiIGFsdD1cIlR3aW5sZWFmIFN0dWRpb3MgTG9nb1wiIC8+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Bpbm5lci1kb3RcIiAvPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNwaW5uZXIgc3Bpbm5lci1saW5lXCIgLz5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBQcmVsb2FkZXI7XHJcbiJdLCJuYW1lcyI6WyJQcmVsb2FkZXIiLCJkaXYiLCJjbGFzc05hbWUiLCJpbWciLCJzcmMiLCJhbHQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/layout/Preloader.js\n");
-
-/***/ }),
-
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
+/***/ 6764:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -66,14 +242,11 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -84,7 +257,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.jsx"));
+var __webpack_exports__ = (__webpack_exec__(6531));
 module.exports = __webpack_exports__;
 
 })();

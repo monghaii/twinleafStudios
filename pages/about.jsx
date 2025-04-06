@@ -263,7 +263,7 @@ const About = () => {
         {/* check commit history init commit for boilerplate */}
       </div>
       {/* Footer */}
-      <Footer />
+      {/* <Footer /> */}
     </Layout>
   );
 };
