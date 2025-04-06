@@ -6,10 +6,10 @@ const Contacts = () => {
     <Layout>
       <div className="wrapper">
         {/* Section Started Heading */}
-        <PageTitle title="Contact Us" />
+        {/* <PageTitle title="Get in touch" /> */}
 
         {/* Section Image Large */}
-        <div
+        {/* <div
           className="section section-inner m-image-large scrolla-element-anim-1 scroll-animate"
           data-animate="active"
         >
@@ -19,11 +19,11 @@ const Contacts = () => {
               style={{ backgroundImage: "url(assets/images/contact.jpg)" }}
             />
           </div>
-        </div>
+        </div> */}
         {/* Section Contacts Form */}
         <div className="section section-inner m-contacts-form">
           <div className="container">
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 {/* titles */}
                 <div className="m-titles">
@@ -36,7 +36,11 @@ const Contacts = () => {
                 </div>
                 {/* contact form */}
                 <div className="contacts-form">
-                  <form id="cform" method="post">
+                  <form
+                    id="cform"
+                    method="post"
+                    action="mailto:matt@twinleaf.studio"
+                  >
                     <div className="group">
                       <div
                         className="value scrolla-element-anim-1 scroll-animate"
@@ -77,9 +81,9 @@ const Contacts = () => {
                       className="submit scrolla-element-anim-1 scroll-animate"
                       data-animate="active"
                     >
-                      <a href="#" className="btn">
+                      <button type="submit" className="btn">
                         Send a Message
-                      </a>
+                      </button>
                     </div>
                   </form>
                   <div className="alert-success" style={{ display: "none" }}>
@@ -89,16 +93,21 @@ const Contacts = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 {/* titles */}
-                <div className="m-titles">
+                {/* <div className="m-titles">
                   <h2
                     className="m-title scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
                   >
                     Contact info
                   </h2>
-                </div>
+                </div> */}
                 {/* services */}
-                <div className="services-items row">
+                {/* <div className="services-items row">
+                  <style jsx>{`
+                    .services-item .icon i {
+                      color: #4ead6d !important;
+                    }
+                  `}</style>
                   <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
                     <div
                       className="services-item scrolla-element-anim-1 scroll-animate"
@@ -120,7 +129,7 @@ const Contacts = () => {
                         <i aria-hidden="true" className="fas fa-at" />
                       </div>
                       <div className="name">E-mail:</div>
-                      <div className="text">aster@domain.com</div>
+                      <div className="text">matt@twinleaf.studio</div>
                     </div>
                   </div>
                   <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -135,12 +144,10 @@ const Contacts = () => {
                         />
                       </div>
                       <div className="name">Location:</div>
-                      <div className="text">
-                        Marollem St. 32, New York, USA.
-                      </div>
+                      <div className="text">Los Angeles, CA</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
