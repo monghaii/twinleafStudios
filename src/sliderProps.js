@@ -18,6 +18,7 @@ SwiperCore.use([
 ]);
 
 export const home1SliderProps = {
+  direction: "vertical",
   slidesPerView: 1,
   spaceBetween: 0,
   loop: true,
@@ -28,10 +29,10 @@ export const home1SliderProps = {
   creativeEffect: {
     prev: {
       shadow: true,
-      translate: ["-20%", 0, -1],
+      translate: [0, "-20%", -1],
     },
     next: {
-      translate: ["100%", 0, 0],
+      translate: [0, "100%", 0],
     },
   },
   speed: 1000,
@@ -62,7 +63,21 @@ export const home1SliderProps = {
   },
 };
 
+// # Start of Selection
+// Add event listener for arrow keys to change slides
+if (typeof window !== "undefined") {
+  document.addEventListener("keydown", (event) => {
+    const swiperInstance = document.querySelector(".hero-main-slider").swiper;
+    if (event.key === "ArrowUp") {
+      swiperInstance.slidePrev(400);
+    } else if (event.key === "ArrowDown") {
+      swiperInstance.slideNext(400);
+    }
+  });
+}
+
 export const HomeGridSliderProps = {
+  direction: "vertical",
   slidesPerView: 3,
   spaceBetween: 50,
   centeredSlides: true,
@@ -92,6 +107,7 @@ export const HomeGridSliderProps = {
 };
 
 export const HomeGridFullySliderProps = {
+  direction: "vertical",
   slidesPerView: 3,
   spaceBetween: 0,
   centeredSlides: true,
@@ -121,6 +137,7 @@ export const HomeGridFullySliderProps = {
 };
 
 export const jsTestimonials = {
+  direction: "vertical",
   slidesPerView: 2,
   spaceBetween: 50,
   pagination: {
@@ -144,6 +161,7 @@ export const jsTestimonials = {
 };
 
 export const mGalleryCarousel = {
+  direction: "vertical",
   slidesPerView: "auto",
   spaceBetween: 100,
   speed: 700,

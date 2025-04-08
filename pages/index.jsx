@@ -128,7 +128,7 @@ const Index = () => {
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        QQQTrading.com
+                        QQQTrading
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
@@ -297,10 +297,10 @@ const Index = () => {
             data-animate="active"
           />
           {/* navigation */}
-          <div className="swiper-buttons">
+          {/* <div className="swiper-buttons">
             <div className="swiper-button-prev" />
             <div className="swiper-button-next" />
-          </div>
+          </div> */}
         </Swiper>
       </div>
     </Layout>
