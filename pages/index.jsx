@@ -25,7 +25,9 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">martech</div>
+                    <div className="label scrolla-element-anim-1">
+                      marketing
+                    </div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -40,6 +42,55 @@ const Index = () => {
                       performance and return on investment. Partner with us to
                       elevate your social media marketing strategy and achieve
                       your business goals.
+                    </div>
+                  </div>
+                  <div className="more-bts">
+                    <Link legacyBehavior href="mailto:matt@twinleaf.studio">
+                      <a
+                        data-splitting=""
+                        className="btn more-btn scrolla-element-anim-1"
+                      >
+                        contact us
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-slide" data-color="white">
+            {/* image */}
+            <div
+              className="slide"
+              style={{
+                backgroundImage:
+                  "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7595263/pexels-photo-7595263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+              }}
+            />
+            {/* slide titles */}
+            <div className="slide-titles">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  {/* title */}
+                  <div className="titles">
+                    <div className="label scrolla-element-anim-1">
+                      marketing
+                    </div>
+                    <div className="title">
+                      <span
+                        className="title-inner splitting-text-anim-2"
+                        data-splitting=""
+                      >
+                        Social Media Management
+                      </span>
+                    </div>
+                    <div className="subtitle scrolla-element-anim-1">
+                      Our in-house team of dedicated social media managers
+                      specialize in ensuring growth and engagement across your
+                      Instagram, Facebook, TikTok, and X accounts. Our experts
+                      utilize advanced strategies and targeted campaigns to
+                      maximize your online presence and drive meaningful
+                      interactions, helping you achieve your business goals.
                     </div>
                   </div>
                   <div className="more-bts">
