@@ -8,10 +8,8 @@ const Index = () => {
   return (
     <Layout>
       <div className="wrapper">
-        {/* Section Hero Main Slider */}
         <Swiper {...home1SliderProps} className="section hero-main-slider">
           <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
             <div
               className="slide"
               style={{
@@ -19,11 +17,9 @@ const Index = () => {
                   "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1596526131090-bcbe09e432d3?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
               }}
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
                     <div className="label scrolla-element-anim-1">
                       marketing
@@ -33,7 +29,7 @@ const Index = () => {
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Affiliate Marketing
+                        Twinleaf Marketing
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
@@ -59,7 +55,50 @@ const Index = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
+            <div
+              className="slide"
+              style={{
+                backgroundImage:
+                  "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg)",
+              }}
+            />
+            <div className="slide-titles">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div className="titles">
+                    <div className="label scrolla-element-anim-1">
+                      marketing
+                    </div>
+                    <div className="title">
+                      <span
+                        className="title-inner splitting-text-anim-2"
+                        data-splitting=""
+                      >
+                        Twinleaf Ads Automation
+                      </span>
+                    </div>
+                    <div className="subtitle scrolla-element-anim-1">
+                      Automatically launch, optimize, and scale your ads with
+                      our proprietery AI. Manage campaigns directly from
+                      telegram. Available as a custom solution or in conjunction
+                      with our services.
+                    </div>
+                  </div>
+                  <div className="more-bts">
+                    <Link legacyBehavior href="mailto:matt@twinleaf.studio">
+                      <a
+                        data-splitting=""
+                        className="btn more-btn scrolla-element-anim-1"
+                      >
+                        contact us
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          {/* <SwiperSlide className="swiper-slide" data-color="white">
             <div
               className="slide"
               style={{
@@ -67,11 +106,9 @@ const Index = () => {
                   "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7595263/pexels-photo-7595263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
               }}
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
                     <div className="label scrolla-element-anim-1">
                       marketing
@@ -106,9 +143,8 @@ const Index = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
             <div
               className="slide"
               style={{
@@ -116,11 +152,9 @@ const Index = () => {
                   "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
               }}
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title use titles dark for dark text */}
                   <div className="titles">
                     <div className="label scrolla-element-anim-1">fintech</div>
                     <div className="title">
@@ -128,16 +162,17 @@ const Index = () => {
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        QQQTrading
+                        QQQTrader
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      Trading signals for the QQQ Nasdaq 100 ETF returning over
-                      22% CAGR since 2005.
+                      Profitable trading signals for the QQQ Nasdaq 100 ETF
+                      returning over 22% CAGR since 2005. Weekly newsletter and
+                      notification service to beat the market.
                     </div>
                   </div>
                   <div className="more-bts">
-                    <Link legacyBehavior href="https://qqqtrading.com">
+                    <Link legacyBehavior href="https://qqq-ai.vercel.app/">
                       <a
                         data-splitting=""
                         className="btn more-btn scrolla-element-anim-1"
@@ -150,8 +185,7 @@ const Index = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
+          {/* <SwiperSlide className="swiper-slide" data-color="white">
             <div
               className="slide"
               style={{
@@ -160,11 +194,9 @@ const Index = () => {
                 // backgroundPosition: "calc(85%) center",
               }}
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
                     <div className="label scrolla-element-anim-1">
                       gamification
@@ -197,14 +229,14 @@ const Index = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide className="swiper-slide" data-color="white">
             {/* image */}
             <div
               className="slide"
               style={{
                 backgroundImage:
-                  "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(https://images.pexels.com/photos/6969937/pexels-photo-6969937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
+                  "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(https://images.pexels.com/photos/3933649/pexels-photo-3933649.jpeg)",
               }}
             />
             {/* slide titles */}
@@ -243,8 +275,7 @@ const Index = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="swiper-slide" data-color="white">
-            {/* image */}
+          {/* <SwiperSlide className="swiper-slide" data-color="white">
             <div
               className="slide"
               style={{
@@ -252,11 +283,9 @@ const Index = () => {
                   "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)",
               }}
             />
-            {/* slide titles */}
             <div className="slide-titles">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                  {/* title */}
                   <div className="titles">
                     <div className="label scrolla-element-anim-1">fintech</div>
                     <div className="title">
@@ -290,7 +319,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           {/* pagination */}
           <div
             className="swiper-pagination scrolla-element-anim-1 scroll-animate swiper-pagination-bullets swiper-pagination-horizontal animate__active animate__animated"
