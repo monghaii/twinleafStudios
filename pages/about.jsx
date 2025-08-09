@@ -48,22 +48,21 @@ const About = () => {
                 <h1>We grow businesses.</h1>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                Twinleaf Studios is an LA-based venture studio specializing in
-                transforming ideas into digital realities. Our portfolio
-                includes innovative fintech solutions like QQQTrading.com, a
-                trading signals platform for the Nasdaq 100 ETF, and
-                ScoreAuthority, a comprehensive credit monitoring service. We
-                also develop cutting-edge blockchain technology through projects
-                like ZeroFlow, a decentralized exchange built on wire.network.
+                Twinleaf Studios is an LA-based venture studio and marketing
+                company specializing in transforming ideas into digital
+                realities. Our portfolio includes innovative fintech solutions
+                like QQQTrading.com, a trading signals platform for the Nasdaq
+                100 ETF; ScoreAuthority, a comprehensive credit monitoring
+                service; and our in-house social media automation platform.
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                With expertise in web development, UI/UX design, and digital
-                media production, we bring a comprehensive approach to every
-                project. Our team combines technical excellence with creative
-                innovation to deliver solutions that are not just functional,
-                but also engaging and future-proof. We believe in building
-                long-term partnerships with our clients, helping them navigate
-                and succeed in the digital landscape.
+                With expertise in web development, and digital media production,
+                and digital marketing, we bring a comprehensive approach to
+                every project. Our team combines technical excellence with
+                creative innovation to deliver solutions that are not just
+                functional, but also engaging and future-proof. We believe in
+                building long-term partnerships with our clients, helping them
+                navigate and succeed in the digital landscape.
               </div>
             </div>
           </div>
@@ -99,10 +98,12 @@ const About = () => {
                       <div className="icon">
                         <i aria-hidden="true" className="fas fa-chart-line" />
                       </div>
-                      <div className="name">Affiliate Marketing</div>
+                      <div className="name">
+                        Digital Marketing (Paid & Organic)
+                      </div>
                       <div className="text">
-                        Strategic affiliate marketing solutions to maximize
-                        reach and engagement through targeted campaigns and
+                        End-to-end digital marketing solutions to maximize reach
+                        and engagement through targeted campaigns and
                         performance optimization.
                       </div>
                     </div>
@@ -147,41 +148,12 @@ const About = () => {
                       <div className="icon">
                         <i aria-hidden="true" className="fas fa-robot" />
                       </div>
-                      <div className="name">Automation Development</div>
+                      <div className="name">Automation </div>
                       <div className="text">
                         Custom automation solutions to streamline business
-                        processes and improve operational efficiency.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div
-                      className="services-item scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
-                      <div className="icon">
-                        <i aria-hidden="true" className="fas fa-coins" />
-                      </div>
-                      <div className="name">Crypto Project Advising</div>
-                      <div className="text">
-                        Expert guidance and strategic consulting for blockchain
-                        and cryptocurrency projects, from concept to launch.
-                      </div>
-                    </div>
-                  </div>
-                  <div className="services-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                    <div
-                      className="services-item scrolla-element-anim-1 scroll-animate"
-                      data-animate="active"
-                    >
-                      <div className="icon">
-                        <i aria-hidden="true" className="fas fa-chart-bar" />
-                      </div>
-                      <div className="name">Trading Solutions</div>
-                      <div className="text">
-                        Development of trading platforms and signal services,
-                        providing advanced tools for market analysis and
-                        execution.
+                        processes. Our clients use our automations to rapidly
+                        deploy ads, administer automated customer support, and
+                        many other use cases.
                       </div>
                     </div>
                   </div>
@@ -213,7 +185,7 @@ const About = () => {
                     <div className="desc">
                       <div className="name">
                         <span className="number">01.</span>
-                        Digital Innovation Excellence
+                        Performance-Driven Marketing
                       </div>
                     </div>
                   </div>
@@ -224,7 +196,7 @@ const About = () => {
                     <div className="desc">
                       <div className="name">
                         <span className="number">02.</span>
-                        User-Centered Design Approach
+                        Audience-Centered Creative Strategy
                       </div>
                     </div>
                   </div>
@@ -235,7 +207,7 @@ const About = () => {
                     <div className="desc">
                       <div className="name">
                         <span className="number">03.</span>
-                        Comprehensive Digital Solutions
+                        Full-Funnel Growth Campaigns
                       </div>
                     </div>
                   </div>
@@ -246,7 +218,7 @@ const About = () => {
                     <div className="desc">
                       <div className="name">
                         <span className="number">04.</span>
-                        Long-term Client Partnerships
+                        Measurable ROI and Long-Term Partnerships
                       </div>
                     </div>
                   </div>

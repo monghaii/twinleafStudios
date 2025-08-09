@@ -67,7 +67,10 @@ export const home1SliderProps = {
 // Add event listener for arrow keys to change slides
 if (typeof window !== "undefined") {
   document.addEventListener("keydown", (event) => {
-    const swiperInstance = document.querySelector(".hero-main-slider").swiper;
+    const sliderEl = document.querySelector(".hero-main-slider");
+    const swiperInstance = sliderEl && sliderEl.swiper;
+    if (!swiperInstance) return;
+
     if (event.key === "ArrowUp") {
       swiperInstance.slidePrev(400);
     } else if (event.key === "ArrowDown") {
