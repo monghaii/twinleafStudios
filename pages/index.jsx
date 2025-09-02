@@ -29,15 +29,19 @@ const Index = () => {
                         className="title-inner splitting-text-anim-2"
                         data-splitting=""
                       >
-                        Twinleaf Marketing
+                        Twinleaf Advertising
                       </span>
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
-                      We help businesses maximize their reach and engagement
-                      through targeted ad campaigns, ensuring optimal
-                      performance and return on investment. Partner with us to
-                      elevate your social media marketing strategy and achieve
-                      your business goals.
+                      We help ambitious brands break through the noise and reach
+                      audiences others can’t. By running hyper-targeted
+                      campaigns designed for maximum efficiency, we deliver
+                      measurable growth while keeping acquisition costs low.
+                      Unlike traditional firms, Twinleaf Advertising leverages
+                      state-of-the-art growth hacking techniques and proprietary
+                      technology rarely seen in conventional advertising—giving
+                      you the competitive edge to scale faster, engage deeper,
+                      and achieve your business goals with confidence.
                     </div>
                   </div>
                   <div className="more-bts">
