@@ -21,9 +21,7 @@ const Index = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">
-                      marketing
-                    </div>
+                    <div className="label scrolla-element-anim-1">services</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -37,7 +35,7 @@ const Index = () => {
                       audiences others can’t. By running hyper-targeted
                       campaigns designed for maximum efficiency, we deliver
                       measurable growth while keeping acquisition costs low.
-                      Unlike traditional firms, Twinleaf Advertising leverages
+                      Unlike traditional firms, Twinleaf Studios leverages
                       state-of-the-art growth hacking techniques and proprietary
                       technology rarely seen in conventional advertising—giving
                       you the competitive edge to scale faster, engage deeper,
@@ -70,9 +68,7 @@ const Index = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">
-                      marketing
-                    </div>
+                    <div className="label scrolla-element-anim-1">services</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -83,11 +79,15 @@ const Index = () => {
                     </div>
                     <div className="subtitle scrolla-element-anim-1">
                       Our in-house team of dedicated social media managers
-                      specialize in ensuring growth and engagement across your
-                      Instagram, Facebook, TikTok, and X accounts. Our experts
-                      utilize advanced strategies and targeted campaigns to
-                      maximize your online presence and drive meaningful
-                      interactions, helping you achieve your business goals.
+                      specializes in driving consistent growth and engagement
+                      across Instagram, Facebook, TikTok, and X. Beyond standard
+                      community management, we leverage advanced strategies and
+                      proprietary tech designed to hack organic growth—unlocking
+                      reach and visibility that traditional approaches can’t
+                      match. By combining hands-on expertise with cutting-edge
+                      tools, we maximize your online presence and create
+                      meaningful interactions that help you achieve your
+                      business goals.
                     </div>
                   </div>
                   <div className="more-bts">
@@ -116,9 +116,7 @@ const Index = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">
-                      marketing
-                    </div>
+                    <div className="label scrolla-element-anim-1">services</div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -130,8 +128,9 @@ const Index = () => {
                     <div className="subtitle scrolla-element-anim-1">
                       Automatically launch, optimize, and scale your ads with
                       our proprietery AI. Manage campaigns directly from
-                      telegram. Available as a custom solution or in conjunction
-                      with our services.
+                      telegram or slack. Gain real-time access to your ad
+                      performance via our custom-built dashboards. Available as
+                      a custom solution or in conjunction with our services.
                     </div>
                   </div>
                   <div className="more-bts">
@@ -206,7 +205,9 @@ const Index = () => {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">fintech</div>
+                    <div className="label scrolla-element-anim-1">
+                      our projects
+                    </div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
@@ -295,7 +296,9 @@ const Index = () => {
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   {/* title */}
                   <div className="titles">
-                    <div className="label scrolla-element-anim-1">fintech</div>
+                    <div className="label scrolla-element-anim-1">
+                      our projects
+                    </div>
                     <div className="title">
                       <span
                         className="title-inner splitting-text-anim-2"
